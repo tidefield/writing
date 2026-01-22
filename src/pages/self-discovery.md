@@ -15,25 +15,25 @@ I have given up on New Year's resolutions for many years because they never work
 
 I spent my first days of 2026 in Thailand's countryside. One morning, [a newsletter](https://nesslabs.com/newsletter/year-of-self-discovery) from Ness Labs arrived in my inbox. It wasn't a typical "time to write your resolutions!" kind of post. Instead of imagining a rigid image of who I want to become and then having no practical plan, the article encouraged me to approach 2026 with curiosity with a set of questions.
 
-The following is my take on these questions. I can fail and that's fine. I have a full-time job which consumes most of my time already. So it's certainly possible that life will get in the way. Posting this here in public is like ripping a scratch note from a random journal page and sticking it on the wall. In December, I will come back and see how it goes.cer
+The following is my take on these questions. I can fail and that's fine. I have a full-time job which consumes most of my time already. So it's certainly possible that life will get in the way. Posting this here in public is like ripping a scratch note from a random journal page and sticking it on the wall. In December, I will come back and see how it goes.
 
 ---
 
 ### 1. Learning: What skill or topic am I willing to look bad at while learning this year?
 
-#### Guitar
+### Mastering the guitar
 
 Since my dad bought a guitar for my high school graduation, I've only learned it on the surface: basic strumming patterns and chords for popular songs. I avoided the hard stuff.
 
-Last year, I randomly ran into a YouTube guitarist I'd been following for a long time at a coffee shop. I asked if he would give 1-on-1 lessons. His lessons unlocked a whole world beneath what I already knew. He made me believe that I could be a great guitarist without a background in music. This year, I'll continue building up my foundation by following [Scott Paul Johnson\'s course](https://www.scottpauljohnson.com/patreon). It's been fascinating. My dream is playing in a band one day!
+Last year, I randomly ran into a YouTube guitarist I'd been following for a long time at a coffee shop. I asked if he would give 1-on-1 lessons. His lessons unlocked a whole world beneath what I already knew. He made me believe that I could be a great guitarist without a background in music. This year, I'll continue building up my foundation by following [Scott Paul Johnson's course](https://www.scottpauljohnson.com/patreon). It's been fascinating. My dream is playing in a band one day!
 
-### Programming
+### Becoming a better programmer
 
-Lately, I've been curious about developer tools. Although I've worked on developer tools before, my focus in this space dwindled to a small percentage since I started my current job. Plus, I've spent some capacity doing management. I miss programming to solve hard problems...
+Lately, I've been curious about compilers and build systems. Although I've worked on build systems before, my focus on this domain dwindled since I started my current job. Plus, I've spent some time doing management. I miss programming to solve hard problems...
 
-I got hooked again last year when I ran across the [Biome](https://biomejs.dev) project. When I started, many terms in the repo flew over my head. As I aimed for more difficult [bugs](https://github.com/biomejs/biome/issues?q=is%3Aissue%20assignee%3Atidefield), I realized there's a huge gap in my knowledge that hinders my understanding of how it works at the fundamental level. While hanging out on Discord, I found the book [_Crafting Interpreters_](https://craftinginterpreters.com/) which has been a great source for learning the fundamentals. This year, I'll keep doubling down on this book and implementing a toy language from scratch.
+I got hooked again last year when I ran across the [Biome](https://biomejs.dev) project. When I [started contributing](https://github.com/search?q=org%3Abiomejs+author%3Atidefield+++&type=pullrequests&state=closed) to the project and aimed for more difficult [bugs](https://github.com/biomejs/biome/issues?q=is%3Aissue%20assignee%3Atidefield) over time, I realized there's a huge gap in my knowledge. It took me a while to navigate the codebase and understand how the building blocks work at the fundamental level. Someone shared about the [_Crafting Interpreters_](https://craftinginterpreters.com/) book in a blog post and it has been a great source for learning the fundamentals. I'll keep going through the book and build a programming language from scratch.
 
-In between my readings, I want to get more involved in the open source ecosystem through projects like [oxc](https://oxc.rs), [biome](http://biomejs.dev), [e18e](https://e18e.dev), or anything interesting to me. This list will surely change as the ecosystem and my knowledge evolve.
+In between my readings, I want to get more involved in the open source ecosystem through projects like [oxc](https://oxc.rs), [biome](http://biomejs.dev), [e18e](https://e18e.dev), or others I discover along the way. I'm starting with these, and I'll follow where curiosity leads.
 
 ### 2. Who is the one person I want to get to know better?
 
@@ -47,9 +47,9 @@ Having gone through some ups and downs, I've learned to value my mental and phys
 
 ### 4. What is one thing I will create and share even if it's not perfect?
 
-This question is so meta. Okay. I'll blog more often and dare to hit that "publish" button even when it's "just" 99.99% ready. "Perfection is the enemy of done," as they say. Honestly, I hesitated doing this post because there are many reasons to not do it: Who cares? It doesn't help anybody to read my idealized year. But here's the thing: leaving all this up on the internet is vulnerable and scary for me. And that's the whole point. I want to dare to do more of the very things that scare me but help me grow.
+This question is so meta. I'll blog more often and dare to publish even when it's "just 99.99% ready" Honestly, I initially hesitated publishing this post because there are many reasons to not do it: Who cares? It doesn't help anybody to read my idealized year. Leaving all this up on the internet is vulnerable and scary for me. But that's the whole point. I want to dare to do more of the very things that scare me but help me grow.
 
-Besides that, I'm taking a sketching class on Saturday. I'll also share guitar recordings with other people in the community of [Scott Paul Johnson\'s course](https://www.scottpauljohnson.com/patreon).
+Besides that, I'm taking a sketching class on Saturday. I'll also share guitar recordings with other people in the community of [Scott Paul Johnson's course](https://www.scottpauljohnson.com/patreon).
 
 ### 5. What is a tiny experiment I will run this year?
 
