@@ -1,0 +1,67 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+const { frontmatter } = Astro.props;
+const { title, date, description, image } = frontmatter;
+---
+
+<BaseLayout title={title} description={description} image={image}>
+    <article>
+        <header style="margin-bottom: 2rem;">
+            <h1 style="margin-bottom: 0.5rem;">{title}</h1>
+            {
+                date && (
+                    <time style="color: #666; font-size: 0.9rem;">{date}</time>
+                )
+            }
+        </header>
+        <div style="line-height: 1.8;">
+            <slot />
+        </div>
+    </article>
+
+    <style>
+        article h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        article h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        article p {
+            margin-bottom: 1rem;
+        }
+        article ul,
+        article ol {
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+        }
+        article li {
+            margin-bottom: 0.5rem;
+        }
+        article pre {
+            background: #f4f4f4;
+            padding: 1rem;
+            overflow-x: auto;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        article code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        article pre code {
+            background: none;
+            padding: 0;
+        }
+        article blockquote {
+            border-left: 4px solid #ddd;
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #666;
+        }
+    </style>
+</BaseLayout>
