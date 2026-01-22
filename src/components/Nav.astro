@@ -3,30 +3,32 @@ const { currentPath } = Astro.props;
 ---
 
 <nav>
-    <a href="/" class={currentPath === "/" ? "active" : ""}>About</a>
-    <a href="/writing" class={currentPath === "/writing" ? "active" : ""}
-        >Writing</a
-    >
-    <a href="/subscribe" class={currentPath === "/subscribe" ? "active" : ""}
-        >Subscribe</a
-    >
-    <a href="/rss.xml" class="rss-link" title="RSS Feed" target="_blank">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+    <div>
+        <a href="/" class={currentPath === "/" ? "active" : ""}>About</a>
+        <a href="/posts" class={currentPath === "/posts" ? "active" : ""}>Posts</a>
+    </div>
+    <div>
+        <a href="/subscribe" class={currentPath === "/subscribe" ? "active" : ""}
+            >Subscribe</a
         >
-            <path d="M4 11a9 9 0 0 1 9 9"></path>
-            <path d="M4 4a16 16 0 0 1 16 16"></path>
-            <circle cx="5" cy="19" r="1"></circle>
-        </svg>
-    </a>
+        <a href="/rss.xml" class="rss-link" title="RSS Feed" target="_blank">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path d="M4 11a9 9 0 0 1 9 9"></path>
+                <path d="M4 4a16 16 0 0 1 16 16"></path>
+                <circle cx="5" cy="19" r="1"></circle>
+            </svg>
+        </a>
+    </div>
 </nav>
 
 <style>
@@ -38,10 +40,13 @@ const { currentPath } = Astro.props;
         padding-bottom: 1rem;
         border-bottom: 1px solid #eee;
     }
+    nav div {
+        display: flex;
+        gap: 1.5rem;
+    }
     nav a {
         color: #333;
         text-decoration: none;
-        margin-right: 1.5rem;
     }
     nav a:hover {
         color: #0066cc;

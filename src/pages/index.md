@@ -9,7 +9,7 @@ I'm Vinh. This space is where I share my continuous journey of learning about fu
 
 You can find me on:
 
-* Github: [tidefield](https://github.com/tidefield)
-* Bluesky: [@tidefield.dev](https://bsky.app/profile/tidefield.dev)
-* LinkedIn: [tidefield](https://www.linkedin.com/in/tidefield/)
-* Email: hi `@` this-domain
+- Github: [tidefield](https://github.com/tidefield)
+- Bluesky: [@tidefield.dev](https://bsky.app/profile/tidefield.dev)
+- LinkedIn: [tidefield](https://www.linkedin.com/in/tidefield/)
+- Email: hi `@` tidefield.dev

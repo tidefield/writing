@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const posts = await Astro.glob("./*.md");
 const sortedPosts = posts
-    .filter(post => !post.url.includes("/about"))
+    .filter(post => post.url !== "")
     .sort(
         (a, b) =>
             new Date(b.frontmatter.date).getTime() -
@@ -11,7 +11,7 @@ const sortedPosts = posts
     );
 ---
 
-<BaseLayout title="Writing - Tide Field">
+<BaseLayout title="Posts - Tide Field">
     <ul class="post-list">
         {
             sortedPosts.map((post) => (
