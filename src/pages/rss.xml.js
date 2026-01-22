@@ -1,17 +1,19 @@
 import rss from "@astrojs/rss";
 
 export async function GET(context) {
-  const posts = import.meta.glob("./writing/*.md", { eager: true });
+  const posts = import.meta.glob("./*.md", { eager: true });
 
-  const items = Object.entries(posts).map(([path, post]) => {
-    const slug = path.split("/").pop().replace(".md", "");
-    return {
-      title: post.frontmatter.title,
-      pubDate: post.frontmatter.date,
-      description: post.frontmatter.description,
-      link: `/writing/${slug}`,
-    };
-  });
+  const items = Object.entries(posts)
+    .map(([path, post]) => {
+      const slug = path.split("/").pop().replace(".md", "");
+      return {
+        title: post.frontmatter.title,
+        pubDate: post.frontmatter.date,
+        description: post.frontmatter.description,
+        link: `/${slug}`,
+      };
+    })
+    .filter((item) => item.link !== "/index");
 
   // Sort by date, newest first
   items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
