@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Search" description="Search all blog posts">
+    <h1>Search</h1>
+    <div id="search"></div>
+</BaseLayout>
+
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
+<script is:inline src="/_pagefind/pagefind-ui.js"></script>
+<script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+
+<style is:global>
+    /* Pagefind overrides */
+    .pagefind-ui__search-input {
+        font-size: 1rem;
+        padding: 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .pagefind-ui__result {
+        border-bottom: 1px solid #eee;
+        padding: 1.5rem 0;
+    }
+
+    .pagefind-ui__result-title {
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .pagefind-ui__result-excerpt {
+        color: #555;
+        line-height: 1.8;
+    }
+</style>
